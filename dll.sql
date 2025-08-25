@@ -21,8 +21,10 @@ CONSTRAINT fk_mascota_duenio FOREIGN KEY (idDuenio) REFERENCES Duenio(idDuenio)
 insert into Duenio (nombre, email,telefono)
 VALUES ("Carlos","carlos@gmail.com",1127927787),
  ("Diego","diego@gmail.com",1133713332),
- ("Miguel","miguel@gmail.com",1134963231);
+ ("Miguel","miguel@gmail.com",1134963231),
+ ("Rene","rene@gmail.com",1180238685);
 insert into Mascotas (especie,raza,nombre,fechaNacimiento,idDuenio)
 values ("Canino", "Rottweiler","Roco","2006-11-11",1),
 	   ("Canino", "Basset hound","Princesa","2012-04-22",2),
-	   ("Felino",NULL,"Roco","2000-06-29",3);
+	   ("Felino",NULL,"Antoni","2000-06-29",3),
+       ("Felino",null, "Lucas", "2010-09-14",4);
