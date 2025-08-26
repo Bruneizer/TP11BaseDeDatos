@@ -28,3 +28,21 @@ values ("Canino", "Rottweiler","Roco","2006-11-11",1),
 	   ("Canino", "Basset hound","Princesa","2012-04-22",2),
 	   ("Felino",NULL,"Antoni","2000-06-29",3),
        ("Felino",null, "Lucas", "2010-09-14",4);
+
+-- select * from Duenio
+
+
+
+-- select d.nombre as "Nombre Duenio", m.nombre as "nombre de las mascotas"
+-- from Mascotas m
+-- join Duenio d on m.idDuenio = d.idDuenio
+
+
+-- select m.nombre as "nombre de las mascotas"
+-- from Mascotas m
+-- where Especie = "Canino"
+
+
+-- select * 
+-- from Mascotas
+-- order by fechaNacimiento asc
