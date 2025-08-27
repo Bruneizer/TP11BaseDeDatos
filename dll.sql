@@ -29,20 +29,24 @@ values ("Canino", "Rottweiler","Roco","2006-11-11",1),
 	   ("Felino",NULL,"Antoni","2000-06-29",3),
        ("Felino",null, "Lucas", "2010-09-14",4);
 
+	   
+
+-- -- -- select para ver todas los datos de los dueños/duenios
 -- select * from Duenio
 
 
 
+-- -- -- select para ver solo el nombre de los duenios/dueños y el nombre de las mascotas que solo pertenescan a la especide de caninos
 -- select d.nombre as "Nombre Duenio", m.nombre as "nombre de las mascotas"
 -- from Mascotas m
 -- join Duenio d on m.idDuenio = d.idDuenio
+-- where especie = "Canino"
 
 
--- select m.nombre as "nombre de las mascotas"
--- from Mascotas m
--- where Especie = "Canino"
 
 
+
+-- -- -- select para ver las mascotas que nacieron primero 
 -- select * 
 -- from Mascotas
 -- order by fechaNacimiento asc
